@@ -15,7 +15,7 @@ public class Finder {
 	}
 	//breadth first search
 	private static int bfs(String maze) {
-		int mazeLength = maze.length();
+	    int mazeLength = maze.length();
 	    int mazeWidth = maze.indexOf('\n');
 	    Queue<Integer> que = new ArrayDeque<>(mazeLength);
 	    Set<Integer> visitedNode = new HashSet<>();
